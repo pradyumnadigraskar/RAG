@@ -1,7 +1,7 @@
 # 🚀 RealTime RAG-based Chatbot
 
 <p align="center">
-  <img src="Banner.png" alt="Chatbot UI" width="400"/>
+  <img src="banner.png" alt="Chatbot UI" width="400"/>
 </p>
 
 <p align="center">
