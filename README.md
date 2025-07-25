@@ -1,7 +1,7 @@
 # 🚀 RealTime RAG-based Chatbot
 
 <p align="center">
-  <img src="Banner.png" alt="Chatbot UI" width="400"/>
+  <img src="banner.png" alt="Chatbot UI" width="400"/>
 </p>
 
 <p align="center">
@@ -56,19 +56,6 @@
 - 🛡️ **Open Source & Extensible**: Easy to adapt for your own needs
 
 ---
-
-# 🏗️ Architecture
-
-```mermaid
-graph TD;
-  A[User Uploads PDF / Asks Question] --> B[Frontend (HTML/CSS)]
-  B --> C[FastAPI Backend]
-  C -->|PDF| D[Gemini API (Summarization)]
-  D --> E[ChromaDB (Vector Store)]
-  C -->|Query| E
-  E --> F[Mistral 7B LLM (Local)]
-  F --> G[Response to User]
-```
 
 ---
 
