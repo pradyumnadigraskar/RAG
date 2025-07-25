@@ -57,19 +57,6 @@
 
 ---
 
-# 🏗️ Architecture
-
-```mermaid
-graph TD;
-  A[User Uploads PDF / Asks Question] --> B[Frontend (HTML/CSS)]
-  B --> C[FastAPI Backend]
-  C -->|PDF| D[Gemini API (Summarization)]
-  D --> E[ChromaDB (Vector Store)]
-  C -->|Query| E
-  E --> F[Mistral 7B LLM (Local)]
-  F --> G[Response to User]
-```
-
 ---
 
 # 🖼️ Screenshots
